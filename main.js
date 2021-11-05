@@ -91,3 +91,19 @@
 // })
 
 // console.log(s);
+
+
+var fruits = ['Apple',12,'Ananas','Orange', 'Banana','Kiwi'];
+
+
+var fruits1 = fruits.join('');
+sum_A = 0;
+sum_B = 0;
+for (let i = 0; i < fruits1.length; i++) {
+
+    (fruits1[i] === ('a' || 'A')) && sum_A ++;
+    (fruits1[i] === ('b' || 'B')) && sum_B ++;
+
+}
+console.log(sum_A);
+console.log(sum_B);
